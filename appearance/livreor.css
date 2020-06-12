@@ -1,0 +1,408 @@
+/* ---------- GENERAL ---------- */
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ---------- HEADER GENERAL ---------- */
+
+
+/* IMAGE DE HEADER */
+
+.header-img {
+    min-height: 450px;
+    background-color: #F4F1DE;
+    background-image: url(../medias/logos/header-logo.jpg);
+    background-position: bottom -20px center;
+    background-repeat: no-repeat;
+}
+
+
+/* BARRE DE NAVIGATION */
+
+.header-navbar {
+    min-height: 60px;
+    background-color: #3D405B;
+}
+
+.header-navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header-navbar li {
+    list-style: none;
+    padding: 15px;
+    margin-left: 20px;
+    font-family: 'Montaga', serif;
+}
+
+.header-navbar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+    position: relative;
+    background: linear-gradient(to right, #E07A5F, #E07A5F 50%, #F2CC8F 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: 275ms ease;
+}
+
+.header-navbar li a:hover {
+    background-position: 0 100%;
+}
+
+
+/* ---------- PRESENTATION DU SITE ---------- */
+
+.content-accueil {
+    max-width: 20em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.content-accueil h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 250%;
+    font-weight: normal;
+    align-items: flex-start;
+    margin-bottom: 3px;
+    font-size: 300%;
+}
+
+.content-accueil h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-size: 160%;
+}
+
+.content-accueil p {
+    font-size: 130%;
+}
+
+
+/* ---------- INSCRIPTION ---------- */
+
+.body-inscription {
+    background-color: #8F5D5D;
+}
+
+.form-inscription {
+    max-width: 20em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.form-inscription div {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-inscription label {
+    color: blanchedalmond;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.form-inscription input {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    min-height: 30px;
+    border-style: none none solid none;
+    border-color: blanchedalmond;
+    background-color: transparent;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.form-inscription input:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.form-inscription button {
+    cursor: pointer;
+    border-style: none;
+    border-radius: 5px;
+    min-height: 50px;
+    max-width: 200px;
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E07A5F;
+}
+
+.form-inscription button:hover {
+    box-shadow: inset 0px 0px 10px 11px rgba(143, 93, 93, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 11px rgba(143, 93, 93, 0.75);
+    -webkit-box-shadow: inset 0px 0px 10px 11px rgba(143, 93, 93, 0.75);
+}
+
+
+/* ---------- CONNEXION ---------- */
+
+.body-connexion {
+    background-color: #81B29A;
+}
+
+.form-connexion {
+    max-width: 20em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.form-connexion div {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-connexion label {
+    color: #3D405B;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.form-connexion input {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    min-height: 30px;
+    border-style: none none solid none;
+    border-color: #3D405B;
+    background-color: transparent;
+    color: #3D405B;
+    text-align: center;
+}
+
+.form-connexion input:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.form-connexion button {
+    cursor: pointer;
+    border-style: none;
+    border-radius: 5px;
+    min-height: 50px;
+    max-width: 200px;
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F2CC8F;
+}
+
+.form-connexion button:hover {
+    box-shadow: inset 0px 0px 10px 11px rgba(143, 93, 93, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 11px rgba(143, 93, 93, 0.75);
+    -webkit-box-shadow: inset 0px 0px 10px 11px rgba(143, 93, 93, 0.75);
+}
+
+
+/* ---------- LIVRE D'OR ---------- */
+
+.body-livreor {
+    background-color: #F4F1DE;
+}
+
+.comment {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.comment main {
+    background-color: #F2CC8F;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+
+.comment main:hover {
+    box-shadow: 0px 0px 10px 9px rgba(242, 204, 143, 0.75);
+    -moz-box-shadow: 0px 0px 10px 9px rgba(242, 204, 143, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 9px rgba(242, 204, 143, 0.75);
+}
+
+.comment main p {
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: 130%;
+}
+
+.comment main div {
+    display: flex;
+    flex-direction: row;
+}
+
+.comment main div p {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    font-size: 150%;
+}
+
+
+/* ---------- AJOUTER UN COMMENTAIRE ---------- */
+
+.body-comment {
+    background-color: #3D405B;
+}
+
+.form-comment form div {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-comment form div label {
+    color: #81B29A;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.form-comment form div textarea {
+    margin-top: 20px;
+    min-width: 600px;
+    border-radius: 10px;
+    background-color: rgba(61, 64, 91, 0.616);
+    border-color: #81B29A;
+    color: #81B29A;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.form-comment form div textarea:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.form-comment form div button {
+    cursor: pointer;
+    border-style: none;
+    border-radius: 5px;
+    min-height: 50px;
+    max-width: 200px;
+    min-width: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #81B29A;
+}
+
+.form-comment form div button:hover {
+    box-shadow: inset 0px 0px 5px 5px rgba(61, 64, 91, 0.75);
+    -moz-box-shadow: inset 0px 0px 5px 5px rgba(61, 64, 91, 0.75);
+    -webkit-box-shadow: inset 0px 0px 5px 5px rgba(61, 64, 91, 0.75);
+}
+
+
+/* ---------- AJOUTER UN COMMENTAIRE ---------- */
+
+.body-profil {
+    background-color: #E07A5F;
+}
+
+.form-profil {
+    max-width: 20em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.form-profil h1 {
+    font-size: 190%;
+    color: #3D405B;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.form-profil div {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-profil label {
+    color: #3D405B;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.form-profil input {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    min-height: 30px;
+    border-style: none none solid none;
+    border-color: #3D405B;
+    background-color: transparent;
+    color: #3D405B;
+    text-align: center;
+}
+
+.form-profil input:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.form-profil button {
+    cursor: pointer;
+    border-style: none;
+    border-radius: 5px;
+    min-height: 50px;
+    max-width: 200px;
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F2CC8F;
+}
+
+.form-profil button:hover {
+    box-shadow: inset 0px 0px 10px 11px rgba(143, 93, 93, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 11px rgba(143, 93, 93, 0.75);
+    -webkit-box-shadow: inset 0px 0px 10px 11px rgba(143, 93, 93, 0.75);
+}
